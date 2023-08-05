@@ -185,7 +185,7 @@ figure:hover:after {
 @media (max-width: 450px) {
   * {
     font-size: 55% !important;
-    overflow-y: hidden !important;
+    overflow-y: scroll !important;
   }
 
   svg {
@@ -207,7 +207,6 @@ figure:hover:after {
 @media (min-width: 450px) and (max-width: 576px) {
   * {
     font-size: 55% !important;
-    overflow-y: hidden !important;
   }
 
   svg {
@@ -219,7 +218,6 @@ figure:hover:after {
 @media (min-width: 576px) and (max-width: 768px) {
   * {
     font-size: 55% !important;
-    overflow-y: scroll !important;
   }
 
   svg {
