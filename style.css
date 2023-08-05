@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 
 * {
   margin: 0;
@@ -26,7 +25,6 @@
 .coming-soon-notified-txt {
   font-size: 1.8rem !important;
   color: #ffffff;
-  /* padding-top: 60px; */
 }
 
 .coming-soon-notified-div {
@@ -101,18 +99,14 @@
   color: #434344;
 }
 
-.coming-soon-countdown-txt {
-  font-family: Audiowide !important;
-  font-size: 6rem !important;
-  color: #3dd9ea;
-  margin-top: 50px;
-}
-
 .hidden {
   display: none;
 }
 
-/* ********************************************************************* */
+
+/* SVG File Styling Start
+-------------------------------------------------------------- */
+
 figure {
   display: flex;
   align-items: center;
@@ -130,23 +124,6 @@ svg > * {
   fill: #ffffff;
   stroke: #ffffff;
   stroke-width: 0.85px;
-}
-
-/* hover tip */
-figure:hover:after {
-  /* content: "Hover to Slow Motion"; */
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 1vh;
-  /* color: #1C1C1C; */
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  font: 700 9px/14px Tahoma, sans-serif;
-  -moz-animation: tip 2.5s forwards;
-  -webkit-animation: tip 2.5s forwards;
-  animation: tip 2.5s forwards;
 }
 
 @-moz-keyframes tip {
@@ -180,7 +157,13 @@ figure:hover:after {
   }
 }
 
-/* ***********************MEDIA Query*********************** */
+/* SVG File Styling End
+-------------------------------------------------------------- */
+
+
+/* Media Query Start
+-------------------------------------------------------------- */
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 450px) {
   * {
@@ -238,3 +221,6 @@ figure:hover:after {
     width: 350px !important;
   }
 }
+
+/* Media Query End
+-------------------------------------------------------------- */
