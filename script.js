@@ -905,11 +905,10 @@ function triggerAnimation() {
 function playJoshiyanaAnimation() {
   animatedContainer.innerHTML = "";
   animatedContainer.insertAdjacentHTML("afterbegin", joshiyanaMarkup);
+  triggerAnimation();
 
   // Start the animation only when the markup is rendered
   requestAnimationFrame(() => {
-    triggerAnimation();
-
     // Start the "coming soon" animation after the "joshiyana" animation is complete
     tl.eventCallback("onComplete", function () {
       currentAnimation = "comingSoon";
@@ -922,11 +921,10 @@ function playJoshiyanaAnimation() {
 function playComingSoonAnimation() {
   animatedContainer.innerHTML = "";
   animatedContainer.insertAdjacentHTML("afterbegin", comingSoonMarkup);
+  triggerAnimation();
 
   // Start the animation only when the markup is rendered
   requestAnimationFrame(() => {
-    triggerAnimation();
-
     // Start the "joshiyana" animation after the "coming soon" animation is complete
     tl.eventCallback("onComplete", function () {
       currentAnimation = "joshiyana";
