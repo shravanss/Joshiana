@@ -184,12 +184,12 @@ figure:hover:after {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 450px) {
   * {
-    font-size: 50% !important;
+    font-size: 52% !important;
     overflow-y: scroll !important;
   }
 
   svg {
-    width: 250px !important;
+    width: 280px !important;
   }
 
   .container-coming-soon {
