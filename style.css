@@ -206,12 +206,12 @@ figure:hover:after {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 450px) and (max-width: 576px) {
   * {
-    font-size: 48% !important;
+    font-size: 52% !important;
     overflow-y: scroll !important;
   }
 
   svg {
-    width: 240px !important;
+    width: 280px !important;
   }
 }
 
