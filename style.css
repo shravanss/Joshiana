@@ -190,6 +190,7 @@ svg > * {
 @media (min-width: 450px) and (max-width: 576px) {
   * {
     font-size: 55% !important;
+    overflow: hidden;
   }
 
   svg {
