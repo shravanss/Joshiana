@@ -2,7 +2,7 @@ const joshiyanaMarkup = `<svg id="Layer_1" data-name="Layer 1" xmlns="http://www
 <defs>
     <style>
         .cls-1 {
-            fill: #3dd9ea;
+            fill: #000000;
         }
     </style>
 </defs>
@@ -276,7 +276,7 @@ const comingSoonMarkup = `<svg id="Layer_3" data-name="Layer 3" xmlns="http://ww
   <defs>
     <style>
       .cls-1 {
-        fill: #3dd9ea;
+        fill: #000000;
       }
     </style>
   </defs>

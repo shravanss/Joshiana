@@ -18,13 +18,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 50px 50px;
+  padding: 20px 50px;
   flex-shrink: calc(10px);
 }
 
 .coming-soon-notified-txt {
   font-size: 1.8rem !important;
-  color: #ffffff;
+  color: #e10808;
+  font-weight: 600;
 }
 
 .coming-soon-notified-div {
@@ -68,13 +69,14 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 .comingsoon-contactus-div a {
   text-decoration: none;
-  font-size: 2rem !important;
-  font-weight: 600;
-  color: #3dd9ea;
+  font-size: 2.5rem !important;
+  font-weight: 700;
+  color: #000000;
 }
 
 .comingsoon-socialmedia-div {
@@ -90,13 +92,11 @@
 }
 
 .comingsoon-socialmedia-div img:hover {
-  filter: invert(67%) sepia(99%) saturate(327%) hue-rotate(136deg)
-    brightness(95%) contrast(94%);
+  filter: invert(16%) sepia(100%) saturate(5666%) hue-rotate(356deg) brightness(86%) contrast(106%);
 }
 
 .coming-soon-copyright-txt {
   font-size: 1.5rem !important;
-  color: #434344;
 }
 
 .hidden {
@@ -113,16 +113,17 @@ figure {
   justify-content: center;
   height: 100px;
   width: auto;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
+  margin-top: 20px;
 }
 
 svg {
-  width: 350px;
+  width: 500px;
 }
 
 svg > * {
-  fill: #ffffff;
-  stroke: #ffffff;
+  fill: #000000;
+  stroke: #000000;
   stroke-width: 0.85px;
 }
 
@@ -186,11 +187,13 @@ svg > * {
   }
 }
 
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 450px) and (max-width: 576px) {
   * {
     font-size: 55% !important;
     overflow: hidden;
+    color: #484848;
   }
 
   svg {
