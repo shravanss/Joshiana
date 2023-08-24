@@ -559,7 +559,7 @@ VANTA.NET({
   scale: 1.0,
   scaleMobile: 1.0,
   spacing: 19.0,
-  backgroundColor: 0x23153c,
+  backgroundColor: 0x0e0818,
   color: 0xff3f81,
   axDistance: 30.0,
 });
