@@ -1,7 +1,9 @@
 function timingCalc(endtime) {
   "use strict";
 
-  var timeTotal = Date.parse(endtime) - Date.now(),
+  var utcNow = new Date(),
+    utcEndtime = new Date(endtime),
+    timeTotal = utcEndtime - utcNow,
     timeSeconds = Math.floor((timeTotal / 1000) % 60),
     timeMinutes = Math.floor((timeTotal / 1000 / 60) % 60),
     timeHours = Math.floor((timeTotal / (1000 * 60 * 60)) % 24),
@@ -49,8 +51,11 @@ function startCalc(endtime) {
   }
 }
 
-var DeadLine = new Date(Date.parse("25 Dec 2023 00:00:00 GMT"));
+// Convert the UTC deadline to Indian Standard Time (IST)
+var utcDeadline = new Date(Date.parse("21 Sep 2023 09:30:00 UTC"));
+var istOffset = 5.5 * 60 * 60 * 1000; // IST offset in milliseconds
+var istDeadline = new Date(utcDeadline.getTime() + istOffset);
 
-setInterval(function () {
-  startCalc(DeadLine);
+var timingNow = setInterval(function () {
+  startCalc(istDeadline);
 }, 1000);
