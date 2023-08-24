@@ -91,13 +91,19 @@
   color: #000000;
 }
 
-.comingsoon-contactus-div h2 {
-  text-decoration: none;
+.joshiyana-date h2 {
   font-size: 2rem !important;
   font-weight: 600;
-  color: #000000;
+  color: #ffff;
   padding-top: 20px;
 }
+
+
+.joshiyana-date sup {
+  vertical-align: top;
+}
+
+
 
 .comingsoon-socialmedia-div {
   display: flex;
