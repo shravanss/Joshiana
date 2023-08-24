@@ -91,6 +91,14 @@
   color: #000000;
 }
 
+.comingsoon-contactus-div h2 {
+  text-decoration: none;
+  font-size: 2rem !important;
+  font-weight: 600;
+  color: #000000;
+  padding-top: 20px;
+}
+
 .comingsoon-socialmedia-div {
   display: flex;
   align-items: center;
