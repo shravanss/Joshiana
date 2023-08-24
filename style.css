@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif !important;
+  /* overflow: hidden; */
+  line-height: normal !important;
+  font-size: 62.5% !important;
+}
+
+.container-coming-soon {
+  width: 100vw !important;
+  height: 100vh !important;
+  background: linear-gradient(180deg, #6b0d03 0%, #3f0c06 55%, #0a0909 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 50px;
+  flex-shrink: calc(10px);
+}
+
+.coming-soon-copyright-txt {
+  color: #fff !important;
+}
+
+.coming-soon-notified-txt {
+  font-size: 1.8rem !important;
+  font-weight: 600;
+}
+
+.joshiyana-mail {
+  text-decoration: underline !important;
+  color: #ffff !important;
+}
+
+.coming-soon-notified-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+  margin-top: 10px;
+}
+
+.comingsoon-not-input {
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-weight: 500;
+  border: 2px solid #3dd9ea;
+  border-radius: 50px;
+  font-size: 1.5rem !important;
+}
+
+::placeholder {
+  color: #3dd9ea;
+  font-size: 1.5rem !important;
+}
+
+.comingsoon-notif-icon {
+  width: 45px;
+  margin-left: 3px;
+  transition: 0.2s ease-in-out;
+}
+
+.comingsoon-notif-icon:hover {
+  filter: invert(67%) sepia(99%) saturate(327%) hue-rotate(136deg) brightness(95%) contrast(94%);
+}
+
+.comingsoon-contactus-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 4rem;
+  background: linear-gradient(to top left, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.4));
+  backdrop-filter: blur(2px);
+  border: .5px solid rgb(255, 255, 255, 0.25);
+  border-radius: 1rem;
+  /* margin-bottom: 50px;
+  margin-top: 50px; */
+}
+
+.comingsoon-contactus-div a {
+  text-decoration: none;
+  font-size: 2.5rem !important;
+  font-weight: 700;
+  color: #000000;
+}
+
+.comingsoon-socialmedia-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comingsoon-socialmedia-div img {
+  padding: 0 10px;
+  width: 50px;
+  transition: 0.2s ease-in-out;
+}
+
+.comingsoon-socialmedia-div img:hover {
+  filter: invert(16%) sepia(100%) saturate(5666%) hue-rotate(356deg) brightness(86%) contrast(106%);
+}
+
+.coming-soon-copyright-txt {
+  font-size: 1.5rem !important;
+}
+
+.hidden {
+  display: none;
+}
+
+/* SVG File Styling Start
+-------------------------------------------------------------- */
+
+figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: auto;
+  /* margin-bottom: 60px; */
+  margin-top: 20px;
+}
+
+svg {
+  width: 500px;
+}
+
+svg>* {
+  fill: rgba(0, 200, 255, 0.9);
+  stroke: rgba(0, 200, 255, 0.9);
+  stroke-width: 0.85px;
+}
+
+@-moz-keyframes tip {
+
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  10%,
+  80% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes tip {
+
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  10%,
+  80% {
+    opacity: 1;
+  }
+}
+
+@keyframes tip {
+
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  10%,
+  80% {
+    opacity: 1;
+  }
+}
+
+/* SVG File Styling End
+-------------------------------------------------------------- */
+
+/* Media Query Start
+-------------------------------------------------------------- */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 450px) {
+  * {
+    font-size: 55% !important;
+    overflow-y: scroll !important;
+  }
+
+  svg {
+    width: 300px !important;
+  }
+
+  .container-coming-soon {
+    height: auto;
+    text-align: center;
+    padding: 50px 50px;
+  }
+
+  .coming-soon-countdown-txt {
+    font-size: 4.5rem !important;
+  }
+
+  /* .inn {
+    font-size: 1rem !important;
+  }
+
+  .flip {
+    height: 20% !important;
+  } */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 450px) and (max-width: 576px) {
+  * {
+    font-size: 55% !important;
+    overflow: hidden;
+  }
+
+  svg {
+    width: 300px !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 768px) {
+  * {
+    font-size: 55% !important;
+  }
+
+  svg {
+    width: 280px !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+  svg {
+    width: 320px !important;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  svg {
+    width: 350px !important;
+  }
+}
+
+/* Media Query End
+-------------------------------------------------------------- */
+
+.text-center {
+  text-align: center;
+}
+
+.countdown-header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.125rem !important;
+  font-weight: 700;
+  color: #fff !important;
+}
+
+.counter-div {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+.counter-element {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.number-div {
+  background-color: #ffff;
+  border-radius: 10px;
+  width: 80px;
+  padding: 12px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4.125rem !important;
+  font-weight: 700;
+}
+
+.element-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem !important;
+  font-weight: 700;
+  color: #ffff;
+}
+
+.counter-animate {
+  animation: slideInFromTop 0.5s ease-in-out;
+}
+
+.show {
+  opacity: 1;
+}
+
+@media screen and (max-width: 450px) {
+  .number-div {
+    width: 60px;
+  }
+
+  .counter-div {
+    gap: 5px;
+  }
+
+  .et-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 451px) {
+  .et-mobile {
+    display: none;
+  }
+}
+
+@keyframes slideInFromTop {
+  from {
+    transform: translateY(-80%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+/* ----------------------------------------------- */
+.clock {
+  width: 650px;
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); */
+}
+
+/* .inn {
+  font-size: 6rem !important;
+} */
+
+.flip {
+  background-color: #ffffff !important;
+}
+
+.flip-clock-active a .inn,
+.flip-clock-before a .inn {
+  background-color: #000000 !important;
+}
+
+/* .flip-clock- a *{
+  background-color: #ffffff !important;
+} */
+
+.flip {
+  height: 100% !important;
+}
