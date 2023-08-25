@@ -36,6 +36,9 @@
 </head>
 
 <body>
+  <div class="coming-soon-loader-container">
+    <div class="loader"></div>
+  </div>
   <div class="container-coming-soon" id="container-comingsoon">
     <figure id="animatedContainer"></figure>
 
@@ -105,6 +108,23 @@
   <!-- user animation scripts -->
   <script src="./joshiyanaCommingSoon.js"></script>
   <script src="./countDownAnimation.js"></script>
+
+  <!-- Loader Script -->
+  <script>
+    document.onreadystatechange = function () {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                    ".container-coming-soon").style.visibility = "hidden";
+                document.querySelector(
+                    ".coming-soon-loader-container").style.visibility = "visible";
+            } else {
+                document.querySelector(
+                    ".coming-soon-loader-container").style.display = "none";
+                document.querySelector(
+                    ".container-coming-soon").style.visibility = "visible";
+            }
+        };
+  </script>
 </body>
 
 </html>
