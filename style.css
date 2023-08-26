@@ -93,7 +93,7 @@
   font-size: 1.8rem !important;
   font-weight: 600;
   color: #ffff;
-  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .joshiyana-date sup {
@@ -156,7 +156,7 @@
 .in-asso-text{
   font-size: 1.8rem !important;
   color: #fff;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
 }
 
 .technocrats-logo{
@@ -180,6 +180,7 @@ figure {
   height: 100px;
   width: auto;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 svg {
