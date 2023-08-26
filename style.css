@@ -27,7 +27,7 @@
 }
 
 .coming-soon-notified-txt {
-  font-size: 1.8rem !important;
+  font-size: 1.5rem !important;
   font-weight: 600;
 }
 
@@ -75,35 +75,30 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem 4rem;
+  padding: 1rem 4rem;
   background: linear-gradient(to top left, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.4));
   backdrop-filter: blur(2px);
   border: .5px solid rgb(255, 255, 255, 0.25);
   border-radius: 1rem;
-  /* margin-bottom: 50px;
-  margin-top: 50px; */
 }
 
 .comingsoon-contactus-div a {
   text-decoration: none;
-  font-size: 2.5rem !important;
+  font-size: 1.8rem !important;
   font-weight: 700;
   color: #000000;
 }
 
 .joshiyana-date h2 {
-  font-size: 2rem !important;
+  font-size: 1.8rem !important;
   font-weight: 600;
   color: #ffff;
   padding-top: 20px;
 }
 
-
 .joshiyana-date sup {
   vertical-align: top;
 }
-
-
 
 .comingsoon-socialmedia-div {
   display: flex;
@@ -113,7 +108,7 @@
 
 .comingsoon-socialmedia-div img {
   padding: 0 10px;
-  width: 50px;
+  width: 45px;
   transition: 0.2s ease-in-out;
 }
 
@@ -129,6 +124,52 @@
   display: none;
 }
 
+.sjec-logo-container{
+  width: 100%;
+  height: auto;
+}
+
+.sjec-logo-container a img{
+  width: 13%;
+  height: auto;
+  transition: 0.2s ease-in-out;
+}
+
+.sjec-logo-container a img:hover{
+  scale: 105%;
+}
+
+.technocrats-mca-content-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dept-text{
+  font-size: 2.5rem !important;
+  color: #fff;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.in-asso-text{
+  font-size: 1.8rem !important;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.technocrats-logo{
+  width: 25%;
+  padding-bottom: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.technocrats-logo:hover{
+  scale: 105%;
+  cursor: pointer;
+}
+
 /* SVG File Styling Start
 -------------------------------------------------------------- */
 
@@ -138,12 +179,11 @@ figure {
   justify-content: center;
   height: 100px;
   width: auto;
-  /* margin-bottom: 60px; */
   margin-top: 20px;
 }
 
 svg {
-  width: 500px;
+  width: 400px;
 }
 
 svg>* {
@@ -218,13 +258,24 @@ svg>* {
     font-size: 4.5rem !important;
   }
 
-  /* .inn {
-    font-size: 1rem !important;
+  .technocrats-logo{
+    width: 80%;
+    padding-bottom: 10px;
+    transition: 0.2s ease-in-out;
   }
 
-  .flip {
-    height: 20% !important;
-  } */
+  .dept-text{
+    font-size: 1.8rem !important;
+  }
+
+  .in-asso-text{
+    font-size: 1.5rem !important;
+  }
+
+  .sjec-logo-container a img{
+    width: 60%;
+    padding-bottom: 10px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -237,6 +288,31 @@ svg>* {
   svg {
     width: 300px !important;
   }
+
+  .technocrats-logo{
+    width: 70%;
+    padding-bottom: 10px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .dept-text{
+    font-size: 1.8rem !important;
+  }
+
+  .in-asso-text{
+    font-size: 1.5rem !important;
+  }
+
+  .sjec-logo-container a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sjec-logo-container a img{
+    width: 50%;
+    padding-bottom: 10px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -248,12 +324,62 @@ svg>* {
   svg {
     width: 280px !important;
   }
+
+  .technocrats-logo{
+    width: 50%;
+    padding-bottom: 10px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .dept-text{
+    font-size: 2rem !important;
+  }
+
+  .in-asso-text{
+    font-size: 1.8rem !important;
+  }
+
+  .sjec-logo-container a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sjec-logo-container a img{
+    width: 30%;
+    padding-bottom: 10px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 768px) and (max-width: 992px) {
   svg {
     width: 320px !important;
+  }
+
+  .technocrats-logo{
+    width: 50%;
+    padding-bottom: 10px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .dept-text{
+    font-size: 2rem !important;
+  }
+
+  .in-asso-text{
+    font-size: 1.8rem !important;
+  }
+
+  .sjec-logo-container a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sjec-logo-container a img{
+    width: 30%;
+    padding-bottom: 10px;
   }
 }
 
@@ -262,9 +388,31 @@ svg>* {
   svg {
     width: 350px !important;
   }
+
+  .technocrats-logo{
+    width: 30%;
+    padding-bottom: 10px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .dept-text{
+    font-size: 2rem !important;
+  }
+
+  .in-asso-text{
+    font-size: 1.8rem !important;
+  }
+
+  .sjec-logo-container a img{
+    width: 20%;
+    padding-bottom: 10px;
+  }
 }
 
 /* Media Query End
+-------------------------------------------------------------- */
+
+/* Count Down Start
 -------------------------------------------------------------- */
 
 .text-center {
@@ -273,7 +421,7 @@ svg>* {
 
 .countdown-header {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.125rem !important;
+  font-size: 2.5rem !important;
   font-weight: 700;
   color: #fff !important;
 }
@@ -296,9 +444,9 @@ svg>* {
   background-color: #ffff;
   border-radius: 10px;
   width: 80px;
-  padding: 12px 0;
+  padding: 10px 0;
   font-family: 'Montserrat', sans-serif;
-  font-size: 4.125rem !important;
+  font-size: 3.125rem !important;
   font-weight: 700;
 }
 
@@ -349,38 +497,11 @@ svg>* {
   }
 }
 
-/* ----------------------------------------------- */
-.clock {
-  width: 650px;
-  /* position: absolute; */
-  /* top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%); */
-}
+/* Count Down End
+-------------------------------------------------------------- */
 
-/* .inn {
-  font-size: 6rem !important;
-} */
-
-.flip {
-  background-color: #ffffff !important;
-}
-
-.flip-clock-active a .inn,
-.flip-clock-before a .inn {
-  background-color: #000000 !important;
-}
-
-/* .flip-clock- a *{
-  background-color: #ffffff !important;
-} */
-
-.flip {
-  height: 100% !important;
-}
-
-
-/* LOADER-------------------------------------------------------------- */
+/* Loader Start
+-------------------------------------------------------------- */
 .coming-soon-loader-container{
   width: 100vw;
   height: 100vh;
@@ -411,3 +532,6 @@ svg>* {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+/* Loader End
+-------------------------------------------------------------- */
