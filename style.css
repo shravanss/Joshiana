@@ -193,6 +193,10 @@ html::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 
+.vanta-canvas{
+  min-height: 100%;
+}
+
 /* SVG File Styling Start
 -------------------------------------------------------------- */
 
