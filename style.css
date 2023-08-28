@@ -5,9 +5,27 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif !important;
-  /* overflow: hidden; */
+  overflow-x: hidden;
   line-height: normal !important;
   font-size: 62.5% !important;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #111;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #6c63f0;
+    border-radius: 50px;
+}
+
+* {
+    scrollbar-color: var(--color-primary) var(--text-primary);
+    scrollbar-width: thin;
 }
 
 .container-coming-soon {
