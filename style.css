@@ -37,7 +37,7 @@ html::-webkit-scrollbar-thumb {
   align-items: center;
   justify-content: space-around;
   padding: 0 50px;
-  flex-shrink: calc(10px);
+  /* flex-shrink: calc(10px); */
 }
 
 .coming-soon-copyright-txt {
@@ -275,7 +275,7 @@ svg>* {
   .container-coming-soon {
     height: auto;
     text-align: center;
-    padding: 50px 50px;
+    padding: 0 50px;
   }
 
   .coming-soon-countdown-txt {
